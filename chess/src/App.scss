@@ -5,3 +5,26 @@
   justify-content: center;
   align-items: center;
 }
+
+.board {
+  width: calc(64px * 8); // 8 squares in row
+  height: calc(64px * 8); // 8 squares in column
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackCell {
+  background-color: saddlebrown;
+}
+
+.whiteCell {
+  background-color: #eeeed2;
+}
