@@ -7,7 +7,7 @@ interface CellProps {
 const CellComponent = ({cell} : CellProps) => {
     return (
         <div className={`cell ${cell.color}`}>
-            
+            {cell.chessPiece?.icon && <img src={cell.chessPiece.icon}/>}
         </div>
     );
 };

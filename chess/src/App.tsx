@@ -13,6 +13,7 @@ function App() {
       const newBoard = new Board();
 
       newBoard.initsCells();
+      newBoard.addChessPieces();
 
       setBoard(newBoard);
   }
